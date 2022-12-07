@@ -30,6 +30,7 @@ client.connect(err => {
       })
   })
 
+  //add booking
   app.post('/addBooking',(req,res)=>{
     const booking = req.body
     bookingCollection.insertOne(booking)
