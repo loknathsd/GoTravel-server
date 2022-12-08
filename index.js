@@ -14,6 +14,7 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
+//connection to mongodb
 
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
