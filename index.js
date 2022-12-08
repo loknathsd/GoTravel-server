@@ -46,7 +46,7 @@ client.connect(err => {
     })
 
   })
-  //alll booking
+  //all booking
 
   app.get('/allBookings',(req,res)=>{
     bookingCollection.find({})
